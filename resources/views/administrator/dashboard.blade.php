@@ -4,7 +4,7 @@
 
         <div class="col-md-12">
             <div class="card">
-                <div class="card-header">Hi, Anda login sebagai Administrator</div>
+                <div class="card-header">Hi, you are Administrator!</div>
 
                 <div class="card-body">
                     @if (session('status'))
@@ -13,7 +13,7 @@
                         </div>
                     @endif
 
-                    {{ __('You are logged in!') }}
+                    Hi, Selamat datang di sistem development tim, yuk jadikan hari kamu produktif hari ini!
                 </div>
             </div>
         </div>
